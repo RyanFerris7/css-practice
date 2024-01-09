@@ -5,19 +5,37 @@
     font-size: 24px;
     letter-spacing: 6px;
     color: #FAF9F6;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#navbar {
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 690px) {
+    #navbar {
+        font-size: 10px;
+        left: -20px;
+    }
+    
 }
 
 .nav-btn {
-    position: sticky;
-    left: 50px;
-    vertical-align: bottom;
     color: #FAF9F6;
     font-family: 'Baskerville', serif;
     text-transform: uppercase;
     list-style-type: none;
     text-decoration: none;
+}
+
+.mojo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
 }
 
 .nav-list {
@@ -30,6 +48,11 @@
     transition: 0.5s ease-in-out;
 }
 
+.hero {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: #000;
     position: relative;
@@ -38,9 +61,36 @@ body {
 }
 
 .body-text {
+    position: relative;
     font-family: 'Baskerville', Times, serif; 
-    font-size: 16px;
+    font-size: 13px;
     color: #FAF9F6;
     line-height: 125%;
     padding-top: 20px;
+}
+
+.copyright {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    color: #808080;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Baskerville',serif;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 690px) {
+    .copyright {
+        font-size: 8px;
+    }
+    
+}
+
+.flower {
+    position: absolute;
+    left:450px;
+    top:1090px;
+    z-index: -1;
+
 }
