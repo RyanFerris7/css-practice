@@ -1,0 +1,46 @@
+/* Title */
+.title {
+    font-family: 'Baskerville', serif;
+    text-transform:uppercase;
+    font-size: 24px;
+    letter-spacing: 6px;
+    color: #FAF9F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.nav-btn {
+    position: sticky;
+    left: 50px;
+    vertical-align: bottom;
+    color: #FAF9F6;
+    font-family: 'Baskerville', serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-btn:hover {
+    color:#9acd32;
+    text-shadow: #9acd32 1px 0 5px;
+    transition: 0.5s ease-in-out;
+}
+
+body {
+    background-color: #000;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.body-text {
+    font-family: 'Baskerville', Times, serif; 
+    font-size: 16px;
+    color: #FAF9F6;
+    line-height: 125%;
+    padding-top: 20px;
+}
